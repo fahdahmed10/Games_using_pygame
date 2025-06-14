@@ -1,7 +1,6 @@
 import pygame
 import random
 import math
-
 pygame.init()
 num_of_tiles = 32
 tile_width = 25
@@ -104,7 +103,6 @@ class Game:
             self.lose_sound = None
             
         self.reset()
-
     def reset(self):
         self.win = False
         self.score = 0
